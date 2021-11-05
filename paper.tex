@@ -1,0 +1,46 @@
+\documentclass[man,floatsintext]{apa7}
+\usepackage[american]{babel}
+\usepackage{csquotes}
+\usepackage{caption}
+\usepackage[style=apa,sortcites=true,sorting=nyt,backend=biber]{biblatex}
+\DeclareLanguageMapping{american}{american-apa}
+\addbibresource{bibliography.bib}
+
+% Title Page Information
+
+\begin{document}
+
+\title{Capstone Project}
+\shorttitle{}
+
+\authorsnames{Walter Sobcheck}
+\authorsaffiliations{{Data Science, Very Difficult Technical University}}
+
+\leftheader{Roepke}
+
+\abstract{
+  Bacon ipsum dolor amet jerky burgdoggen turkey pork loin beef ribs tenderloin ribeye bacon chuck spare ribs meatball. Doner cow pork tongue tenderloin turducken leberkas. Frankfurter turducken cupim chislic, andouille brisket rump jerky bacon. Tenderloin chicken ribeye kielbasa capicola. Leberkas strip steak andouille capicola chislic, ham t-bone pork sausage filet mignon short loin ball tip chicken. Tenderloin swine t-bone strip steak chicken bresaola.
+}
+
+
+% Introduction Page
+\maketitle
+Tongue sausage ground round capicola pork pancetta brisket, strip steak shank hamburger turkey chislic tenderloin. Pork belly chuck turducken, t-bone ground round ham hock rump burgdoggen cow andouille chislic pancetta bacon. Tenderloin jerky tongue burgdoggen beef ribs spare ribs capicola rump doner, corned beef biltong jowl. Landjaeger rump pork ham, hamburger meatball bacon boudin jerky tri-tip beef ribs brisket ball tip ribeye venison. Doner sirloin bresaola ham short loin short ribs bacon jowl strip steak boudin porchetta pork belly shankle t-bone. Doner short ribs corned beef filet mignon bacon, burgdoggen ribeye ham buffalo beef ribs. Meatloaf strip steak pig corned beef porchetta kielbasa ham hock ham sirloin pastrami burgdoggen andouille meatball.
+
+\newpage
+
+% Data collection page
+\section{Section 1}
+
+Drumstick short loin cow prosciutto flank leberkas pastrami pancetta ham pig. Andouille alcatra burgdoggen, tri-tip boudin shank jerky buffalo beef short loin filet mignon leberkas \parencite{RN175} . Picanha alcatra pancetta jowl filet mignon tenderloin meatloaf chislic, beef ribs cow andouille kielbasa pastrami flank porchetta. Capicola kielbasa picanha drumstick pork belly filet mignon. Jerky pig kevin, spare ribs buffalo bresaola porchetta burgdoggen pancetta cow tenderloin turducken tail doner beef ribs (see fig ~\ref{fig:my_fig}). 
+
+\begin{figure}[!ht]
+  \centering
+  \caption{A puppy totally confused by bacon-ipsum, but really wants bacon.}
+  \includegraphics[width=\textwidth]{dog.jpg}
+  \label{fig:my_fig}
+\end{figure}
+
+\printbibliography
+
+\end{document}
