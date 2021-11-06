@@ -1,4 +1,4 @@
-\documentclass[man,floatsintext]{apa7}
+\documentclass[stu,floatsintext]{apa7}
 \usepackage[american]{babel}
 \usepackage{csquotes}
 \usepackage{caption}
@@ -11,12 +11,12 @@
 \begin{document}
 
 \title{Capstone Project}
-\shorttitle{}
 
 \authorsnames{Brian Roekpe}
 \authorsaffiliations{{Data Analytics, Golden Gate University}}
-
-\leftheader{Roepke}
+\course{DATA190}
+\professor{Dr. Professor Data}
+\duedate{August 21, 2021}
 
 \abstract{
   Bacon ipsum dolor amet jerky burgdoggen turkey pork loin beef ribs tenderloin ribeye bacon chuck spare ribs meatball. Doner cow pork tongue tenderloin turducken leberkas. Frankfurter turducken cupim chislic, andouille brisket rump jerky bacon. Tenderloin chicken ribeye kielbasa capicola. Leberkas strip steak andouille capicola chislic, ham t-bone pork sausage filet mignon short loin ball tip chicken. Tenderloin swine t-bone strip steak chicken bresaola.
@@ -29,17 +29,19 @@ Tongue sausage ground round capicola pork pancetta brisket, strip steak shank ha
 
 \newpage
 
-% Data collection page
 \section{Sentiment Analysis of Dog's Feelings Towards Bacon}
 
-Drumstick short loin cow prosciutto flank leberkas pastrami pancetta ham pig. Andouille alcatra burgdoggen, tri-tip boudin shank jerky buffalo beef short loin filet mignon leberkas \parencite{RN175} . Picanha alcatra pancetta jowl filet mignon tenderloin meatloaf chislic, beef ribs cow andouille kielbasa pastrami flank porchetta. Capicola kielbasa picanha drumstick pork belly filet mignon. Jerky pig kevin, spare ribs buffalo bresaola porchetta burgdoggen pancetta cow tenderloin turducken tail doner beef ribs (see fig ~\ref{fig:my_fig}). 
+Drumstick short loin cow prosciutto flank leberkas pastrami pancetta ham pig. Andouille alcatra burgdoggen, tri-tip boudin shank jerky buffalo beef short loin \textcite{huff2010lie} filet mignon leberkas \parencite{huff2010lie}. Picanha alcatra pancetta jowl filet mignon tenderloin meatloaf chislic, beef ribs cow andouille kielbasa pastrami flank porchetta. Capicola kielbasa picanha drumstick pork belly filet mignon. Jerky pig kevin, spare ribs buffalo bresaola porchetta burgdoggen pancetta cow tenderloin turducken tail doner beef ribs (see fig ~\ref{fig:my_fig}). 
 
-\begin{figure}[!ht]
+\begin{figure}
   \centering
   \caption{A puppy totally confused by bacon-ipsum, but really wants bacon.}
   \includegraphics[width=\textwidth]{dog.jpg}
   \label{fig:my_fig}
 \end{figure}
+
+\subsection{Other Sources of Bacon Goodness}
+Consectetur biltong pork chop duis lorem consequat ut frankfurter swine tongue. Cupidatat non sirloin, tail id commodo esse jowl ham hock enim bresaola mollit culpa. Strip steak deserunt pastrami t-bone nostrud. Pancetta tri-tip esse, t-bone sirloin chicken tongue. Frankfurter consequat consectetur reprehenderit velit.
 
 \printbibliography
 
